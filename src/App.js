@@ -1,8 +1,11 @@
 import React from 'react';
-import Gallery from './components/Gallery'
-import Article from './components/Article'
+// import Gallery from './components/Gallery'
+// import Article from './components/Article'
+// import AgeTest from './components/AgeTest';
 // import Hello from './components/Hello'
 // import Bye from './components/Bye'
+// import Statful from './components/Stateful'
+import Stateful from './components/Stateful';
 
 function App() {
   return (
@@ -16,8 +19,12 @@ function App() {
       <Bye language="zh" name="Michael" />
       <Bye language="zh" name="Amy" />
       <Bye language="en" name="Steven" /> */}
-      <Gallery />
-      <Article />
+      {/* <Gallery />
+      <Article /> */}
+      {/* <AgeTest name="Bill" age={17}/>
+      <AgeTest name="Jimmy" age={38}/>
+      <AgeTest name="Amy" age={15}/> */}
+      <Stateful />
     </div>
   );
 }
