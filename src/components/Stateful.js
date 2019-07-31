@@ -42,7 +42,6 @@ class Stateful extends React.Component {
         this.addPerson({language: 'zh', name: 'Steven'})
         this.addPerson({language: 'zh', name: 'Louis'})
 
-        console.error.log(this)
 
         
     }
