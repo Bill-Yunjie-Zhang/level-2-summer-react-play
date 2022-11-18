@@ -8,7 +8,7 @@
     "react-dom": "^16.8.6",
     "react-image-gallery": "^0.8.18",
     "react-medium-image-zoom": "^3.1.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
